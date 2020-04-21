@@ -1,0 +1,41 @@
+.dark-mode {
+	background-color: hsl(232, 19%, 15%);
+	color: hsl(0, 0, 100%);
+	width: 100%;
+	h3 {
+		color: hsl(228, 34%, 66%);
+	}
+	.card {
+		background-color: hsl(228, 28%, 20%);
+		color: hsl(0, 0, 100%);
+		&:hover {
+			background-color: hsl(230, 17%, 14%);
+		}
+
+		.ind,
+		.ind2 {
+			color: hsl(228, 34%, 66%);
+		}
+	}
+}
+.light-mode {
+	background-color: hsl(225, 100%, 98%);
+	color: hsl(230, 17%, 14%);
+	width: 100%;
+
+	.card {
+		background-color: hsl(227, 47%, 96%);
+
+		&:hover {
+			background-color: hsl(228, 12%, 44%);
+		}
+	}
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
